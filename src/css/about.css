@@ -1,0 +1,475 @@
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+@media(max-width:991px) {
+    .company_m {
+        margin: 39px 0;
+        padding: 0 15px;
+        font-family: 'Georgia';
+    }
+
+    .company_m_title {
+        margin-bottom: 25px;
+        color: #333333;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .company_m_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .company_m>p {
+        margin-top: 20px;
+        font-size: 15px;
+        max-height: 150px;
+        overflow: hidden;
+        text-align:justify;
+        
+    }
+
+    .company_m_more {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 12px;
+        color: #969696;
+        text-transform: uppercase;
+    }
+
+    .company_m_more>img {
+        width: 8.5px;
+        height: 7.5px;
+        margin-left: 4px;
+        vertical-align: middle;
+
+    }
+
+    .business_m {
+        margin-bottom: 40px;
+        padding: 0 25px;
+    }
+
+    .business_m_bg {
+        width: 100%;
+        min-height: 200px;
+        background-color: #2E6793;
+        position: relative;
+    }
+
+    .business_m_title {
+        margin-bottom: 25px;
+        color: #333333;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .business_m .swiper-slide {
+        padding: 18px;
+    }
+
+    .business_m_icon {
+        width: 56px;
+    }
+
+    .business_m_content .top {
+        margin-bottom: 25px;
+    }
+
+    .business_m_content .title {
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 16px;
+        padding-left: 10px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .business_m_bg p {
+        font-size: 15px;
+        color: #FFFFFF;
+        text-align: center;
+        
+    }
+
+    .business_m .swiper-button-prev,
+    .business_m .swiper-button-next {
+        width: 8px;
+        height: 15px;
+        margin-top: 0;
+    }
+
+    .business_m .swiper-button-prev {
+        left: -15px;
+        background: url('../asset/img/mobile/about_icon02.png') no-repeat;
+        background-size: 8px 15px;
+    }
+
+    .business_m .swiper-button-next {
+        right: -15px;
+        background: url('../asset/img/mobile/about_icon03.png') no-repeat;
+        background-size: 8px 15px;
+    }
+
+    .leager_m {
+        font-family: 'Georgia';
+        padding: 0 15px;
+        margin-bottom: 25px;
+    }
+
+    .leager_m_title {
+        font-size: 18px;
+        color: #333333;
+        text-align: center;
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+
+    .leager_list .list {
+        margin: 0;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 2px 4px 5px 0.5px rgba(51,51,51,0.15);
+        margin-bottom: 15px;
+    }
+
+    .leager_list .list img {
+        width: 100%;
+        height: auto;
+    }
+
+    .leager_list .list_content {
+        padding: 15px;
+    }
+
+    .leager_img {
+        padding: 0;
+    }
+
+    .list_content .title {
+        color: #333333;
+        font-size: 15px;
+        margin-bottom: 14px;
+        font-weight: bold;
+    }
+
+    .list_content>p {
+        font-size: 12px;
+        color: #333333;
+    }
+
+
+ #test-popup.white-popup-leadership.mobile{
+    position: absolute;
+    background-color: #fff;
+    width: 345px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.mobile .leadership {
+    color: #333333;
+    padding: 5px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 28px;
+}
+.mobile .leadership_img{
+    width:114px;
+    height: 126px;
+    float: left;
+    padding-right: 16px;
+    padding-bottom: 15px;
+}
+
+.mobile .leadership_name{
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    line-height: 15px;
+}
+.mobile .address{
+   font-size: 12px;
+   color: #666666;
+   padding-top: 10px;
+   display: block;
+   height: 96px;
+   line-height: 14px;
+}
+.mobile .leadership_content {
+    overflow-y: scroll;
+    height: 470px;
+    padding: 15px;
+}
+
+.white-popup-leadership.mobile .leadership_content p {
+    padding-top: 15px;
+    font-size: 12px;
+}
+}
+
+
+.company {
+    margin: 105px 0 54px 0;
+    /* padding: 105px 0 54px 0; */
+    color: #333333;
+    font-family: Georgia;
+}
+
+.company_img {
+    padding-left: 0;
+    padding-right: 0;
+    width: 483px;
+    margin-right: 10px;
+}
+
+.company_img>img {
+    width: 100%;
+    height: auto;
+}
+
+.company_content_box {
+    max-height: 660px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.company_title {
+    font-size: 44px;
+    margin-bottom: 30px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.company_content_box p {
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.company_content {
+    font-size: 21px;
+    line-height: 32px;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.company_content_more {
+    font-size: 21px;
+    padding-top: 27px;
+    text-align: right;
+    cursor: pointer;
+}
+.company_content_more span{
+    color: #333333;
+}
+.about_icon {
+    width: 16px;
+    height: 14px;
+    margin-left: 11px;
+}
+
+/* PC Business模块 */
+.business_pc {
+    margin-bottom: 133px;
+    position: relative;
+    font-family: 'Georgia';
+}
+
+.business_pc .business_pc_bg {
+    width: 100%;
+    height: auto;
+}
+
+.business_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.business_container {
+    padding: 50px 0 65px 0;
+}
+
+.business_title {
+    font-size: 51px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+.business_list {
+    padding: 48px 12px 12px 12px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow:4px 5px 8px 1px rgba(51,51,51,0.15);
+    min-height: 515px;
+    text-align: center;
+ }
+a:hover{
+    text-decoration: none;
+}
+ .business_list>img{
+     width: 129px;
+     height: 100px;
+ }
+ .business_list .business_list_title{
+     margin-top: 34px;
+     font-size: 21px;
+     line-height: 34px;
+     color: #333333;
+     font-weight: bold;
+     margin-bottom: 40px;
+ }
+.business_container a:hover .business_list_title{
+    text-decoration: underline;
+    text-decoration-color:#005BAC;
+}
+ .business_list>p{
+     font-size: 21px;
+     line-height: 32px;
+     color: #333333;
+ }
+ .leager_ship{
+     margin-bottom: 260px;
+     position: relative;
+     font-family:'Georgia';
+ }
+ .leager_ship_bg{
+     width: 100%;
+     height: auto;
+ }
+ .leager_content{
+     position: absolute;
+     top:0;
+     bottom: 0;
+     left:0;
+     right: 0;
+ }
+.leager_title{
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 18px;
+}
+
+.leager_row {
+    margin-right: 108px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 2px 3px 17px 2px rgba(0, 0, 0, 0.15);
+    padding: 13.5px;
+    margin-left: 0;
+}
+
+.leager_row_second {
+    margin-left: 108px;
+    margin-right: 0;
+    margin-top: 49px;
+}
+
+.leager_item {
+    text-align: center;
+    padding-right: 5px;
+}
+
+.leager_item img {
+    width: 100%;
+    height: auto;
+}
+
+.leager_item .leager_item_title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 0 10px 0;
+    color: #333333;
+}
+.leager_row a:hover .leager_item_title{
+    text-decoration: underline;
+    text-decoration-color: #005BAC;
+}
+.leager_item>p {
+    padding: 0 19px;
+    color: #666666;
+    font-size: 21px;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+a:link{ text-decoration: none;}
+
+#company-popup.white-popup-leadership,
+#test-popup.white-popup-leadership {
+    position: absolute;
+    background-color: #fff;
+    width: 1050px;
+    height: 695px;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.leadership {
+    color: #333333;
+    padding: 20px;
+    font-size: 21px;
+    text-align: justify;
+    line-height: 34px;
+}
+.leadership_img{
+    width: 274px;
+    height: 319px;
+    float: left;
+    padding-right: 33px;
+    padding-bottom: 15px;
+}
+
+.leadership_name{
+    font-weight: bold;
+    font-size: 26px;
+    color: #333333;
+    line-height: 26px;
+}
+.address{
+    padding-top: 14px;
+   font-size: 21px;
+   padding-left: 46px;
+   color: #666666;
+   height: 75px;
+   line-height: 20px;
+}
+.leadership_content {
+    overflow-y: scroll;
+    height: 643px;
+    padding: 20px;
+    color: #333333;
+    font-size: 21px;
+}
+
+.leadership_content p {
+    padding-top: 34px;
+}
+
+.white-popup-leadership .company_title{
+   font-size: 44px;
+   font-weight: bold;
+   margin-bottom: 43px;
+}
+
+.white-popup-leadership .leadership_content p {
+    padding-top: 0;
+    font-size: 21px;
+    color: #333333;
+
+}

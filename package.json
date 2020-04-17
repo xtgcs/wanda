@@ -1,0 +1,26 @@
+{
+  "author": "tianpan",
+  "name": "moban",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.8.4"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-csso": "*",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-jshint": "*",
+    "gulp-less": "*",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-refresh": "^1.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "imagemin-pngcrush": "^6.0.0"
+  }
+}

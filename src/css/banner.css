@@ -1,0 +1,9 @@
+@media(max-width:991px){
+    .banner{
+        padding-top: 50px;
+    }
+}
+.banner>img{
+  width: 100%;
+  height: auto;
+}

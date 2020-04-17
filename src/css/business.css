@@ -1,0 +1,105 @@
+@media(max-width:991px){
+
+   .mass_m.mass_container{
+        margin-bottom: 25px;
+        padding: 0 15px;
+    }
+   .mass_m .mass{
+        margin: 40px 0 38px 0;
+     }
+     .mass_m.mass_container .title{
+       font-size: 18px;
+       margin-bottom: 25px;
+     }
+     .mass_m.mass_container p{
+         font-size: 15px;
+         text-align: justify;
+     }
+     .mass_m .item_box{
+         margin: 0;
+     }
+     .mass_m .triathlon img , .running img{
+        width: 100%;
+        height: auto;
+     }
+     .mass_m .triathlon .item ,.running .item{
+         padding-left: 0;
+         margin-bottom: 15px;
+     }
+     .mass_m .triathlon .item_img,.running .item_img{
+         box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+     }
+     .mass_m .running{
+         margin-top:25px;
+     }
+     .mass_m .triathlon{
+         margin-top:25px;
+     }
+
+
+/* companies样式 */
+
+.mass_m.companies_container .title{
+    margin-top: 40px;
+    text-align: center;
+ }
+ .companies_logos{
+     margin-top: 25px;
+ }
+ .mass_m.companies_container .triathlon .item{
+     margin: 0;
+     padding: 0;
+     margin-bottom: 15px;
+ }
+}
+
+.mass_container{
+    font-family: Georgia;
+    color: #333333;
+    margin-bottom: 90px;
+}
+.mass{
+   margin: 105px 0 88px 0;
+}
+.mass_container .title{
+  font-size: 44px;
+  margin-bottom: 50px;
+  font-weight: Bold;
+}
+.mass_container p{
+    font-size: 21px;
+    
+}
+.triathlon img , .running img{
+   width: 100%;
+   height: auto;
+}
+.triathlon .item ,.running .item{
+    padding-left: 0;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.triathlon .item_img,.running .item_img{
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+}
+.running{
+    margin-top:90px;
+}
+.triathlon{
+    margin-top:90px;
+}
+
+/* companies样式 */
+
+.companies_container .title{
+   margin-bottom: 0;
+   margin-top: 105px;
+   line-height: 43px;
+}
+.companies_logos{
+    margin-top: 53px;
+}
+/* .footer {
+    position: absolute;
+    bottom: 0;
+} */

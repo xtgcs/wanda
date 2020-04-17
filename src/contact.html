@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="format-detection" content="telephone=no" />
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+   <link href="asset/css/main.min.css" rel="stylesheet" type="text/css">
+
+   <title>万达体育</title>
+</head>
+
+<body>
+   @@include('include/header.html',{
+      "contact": "active"
+   })
+   @@include('include/banner.html')
+   <div class="contact mobile">
+      <div class="container">
+         <div class="title">
+            Contact US
+         </div>
+         <div class="row">
+            <div class="col-md-6">
+               <div class="contact_item">
+                  <div class="contact_item_title">
+                     IR Contacts:
+                  </div>
+                  <p>
+                     Edith Kwan
+                     <br>
+                     General Manager, Securities Department
+                  </p>
+                  <p class="email">
+                     ir@wsg.cn
+                  </p>
+               </div>
+               <div class="contact_item">
+                  <div class="contact_item_title">
+                     Media Contacts:
+                  </div>
+                  <p>
+                     Zhao Yanrong
+                     <br>
+                     Senior PR manager.Securities Department
+                  </p>
+                  <p class="email">
+                     zhaoyanrong1@wanda.cn
+                  </p>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="contact_form_box">
+                  <p>
+                     Or fill up the form below
+                  </p>
+                  <form class="list">
+                     <div class="form_name">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Your name" required oninvalid="setCustomValidity('Please enter your name!');" oninput="setCustomValidity('');"
+                        >
+                     </div>
+                     <div class="form_name">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" required oninvalid="setCustomValidity('Please enter your email!');" oninput="setCustomValidity('');"
+                        >
+                     </div>
+                     <div class="message_input">
+                        <textarea class="form-control" id="message" name="message" rows="3"
+                           placeholder="Leave a message"></textarea>
+                        <!-- pc端表单提交按钮 -->
+                        <button type="submit" name="contactForm" id="contactForm"
+                           class="btn visible-md-block visible-lg-block">
+                           <span>Submit</span>
+                        </button>
+                     </div>
+                     <!-- 移动端表单提交按钮 -->
+                     <button type="submit" name="contactForm" id="contactForm"
+                        class="btn visible-xs-block visible-sm-block">
+                        <span>Submit</span>
+                     </button>
+                  </form>
+
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+   </div>
+
+   @@include('include/footer.html')
+   @@include('include/agreement.html')
+ 
+   <script src="asset/plug/jquery.min.js"></script>
+   <script src="asset/plug/swiper.jquery.min.js"></script>
+   <script src="asset/plug/jquery.barfiller.js"></script>
+   <script src="asset/plug/jquery.magnific-popup.js"></script>
+   <script src="asset/js/js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+@media(max-width:991px){
+    .contact.mobile{
+        padding: 40px 15px;
+    }
+    .mobile.contact .title{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 39px;
+    }
+    .mobile .contact_item{
+        box-shadow:2px 3px 6px 0px rgba(51,51,51,0.15);
+        background:rgba(255,255,255,1);
+        padding: 15px;
+    }
+    .mobile .contact_item_title{
+      font-size: 15px;
+    }
+    .mobile .contact_item>p{
+        font-size: 14px;
+      }
+      .mobile .contact_item:first-child{
+          margin-bottom: 25px;
+      }
+      .mobile .contact_form_box{
+          margin-top: 40px;
+      }
+      .mobile .contact_form_box p{
+          font-size: 18px;
+          margin-bottom: 25px;
+          text-align: center;
+      }
+      .mobile .form_name{
+          margin-bottom: 15px;
+      }
+      .mobile .form_name input{
+          padding: 15px;
+      }
+      .mobile input::-webkit-input-placeholder{
+        font-size:15px;
+    }
+    .mobile textarea::-webkit-input-placeholder {
+        font-size: 15px;
+    }
+    .mobile .message_input textarea{
+        height: 120px;
+    }
+    .mobile .message_input {
+        position: static;
+    }
+    .mobile  button{
+        padding: 0;
+        width: 100%;
+        margin-top: 24px;
+    }
+    .mobile .btn span{
+        width: 100%;
+        font-size: 15px;
+        color: #FFFFFF;
+        line-height: 40px;
+        background:rgba(0,91,172,1);
+        box-shadow:3px 5px 10px 0px rgba(51,51,51,0.15);
+        border-radius:2px;
+        display: block;
+        text-transform: uppercase;
+    }
+}
+body{
+    background: #fafafa;
+}
+.contact{
+    padding: 106px 0 56px 0;
+    font-family: 'Georgia';
+}
+.contact .title{
+    font-size: 44px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 53px;
+    line-height: 32px;
+}
+.contact_item{
+    color: #333333;
+}
+.contact_item_title{
+    font-size: 21px;
+    font-weight: bold;
+}
+.contact_item>p{
+    font-size: 21px;
+}
+.contact_item .email{
+    color: #397CD6;
+}
+.contact_item:first-child{
+    margin-bottom: 74px;
+}
+
+.contact_form_box p{
+    font-size: 21px;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.form_name{
+    margin-bottom: 18px;
+    border: 1px solid #E6E6E6;
+}
+.form_name input{
+    border: none;
+    outline: none;
+    padding: 22px 16px 20px 16px;
+}
+input::-webkit-input-placeholder{
+    font-size:21px;
+    color: #969696;
+}
+textarea{
+    border: none;
+    outline: none;
+}
+textarea::-webkit-input-placeholder {
+    font-size: 21px;
+    color: #999999;
+}
+
+.message_input {
+    position: relative;
+}
+.message_input textarea{
+    height: 188px;
+    margin-bottom: 0;
+    resize:none;
+}
+.message_input button{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    padding: 0;
+}
+.btn span{
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: Georgia;
+    line-height: 40px;
+    width: 162px;
+    height: 40px;
+    background:linear-gradient(to right,rgba(33,113,219,1),rgba(33,113,219,0));
+    box-shadow:1px 2px 5px 0px rgba(51,51,51,0.15);
+    display: inline-block;
+}
