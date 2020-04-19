@@ -148,7 +148,9 @@ body {
         line-height: 0.34rem;
         padding-bottom: 0.28rem;
     }
-
+    .businesses_content .item a:focus{
+        text-decoration: none;
+    } 
     .businesses_img {
         text-align: right;
         width: 56%;
