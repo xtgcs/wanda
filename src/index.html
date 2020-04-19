@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    @@include('include/header.html',{
-        "index": "active"
-     })
-   <div class="home">
+   @@include('include/header.html',{
+   "index": "active"
+   })
+   <div class="home home_page">
       <div class="swiper-container" data-loop="0">
          <div class="swiper-wrapper mobile">
             <div class="swiper-slide">
@@ -118,7 +118,7 @@
          </div>
       </div>
       <!-- pc端businesses模块 -->
-      <div class="container businesses_pc visible-md-block visible-lg-block">
+      <div class="container businesses_pc visible-md-block visible-lg-block" >
          <div class="businesses_pc_title">
             OUR BUSINESSES
          </div>
@@ -127,7 +127,7 @@
             frontrunner in digital innovation
          </p>
          <div class="row">
-            <div class="col-md-6 businesses_content">
+            <div class="pull-left businesses_content aniview"  data-av-animation="fadeInLeft">
                <div class="item">
                   <a href="mass_participation.html" target="_Blank">
                      <div class="content_title">
@@ -164,17 +164,19 @@
                   </p>
                </div>
             </div>
-            <div class="col-md-6 businesses_pc_img">
-               <img src="asset/img/home/img01.png" alt="">
+            <div class="pull-right businesses_img">
+               <div class="businesses_pc_img aniview" data-av-animation="fadeInRight">
+                  <img src="asset/img/home/home_img01.png" alt="">
+               </div>
             </div>
          </div>
       </div>
       <!-- 移动端新闻模块 -->
-      <div class="news mobile visible-xs-block visible-sm-block">
+      <div class="news news_m visible-xs-block visible-sm-block">
          <div class="news_title">
             <p class="title">News</p>
             <a href="news_list.html" target="_Blank">
-               <p class="more"><span>More</span><img src="asset/img/arrow_icon.png" alt=""></p>
+               <p class="more"><span>More</span><img src="asset/img/news/news_icon.png" alt=""></p>
             </a>
          </div>
          <div class="news_list">
@@ -209,10 +211,11 @@
       <!-- pc新闻模块 -->
       <div class="news_pc_wrap visible-md-block visible-lg-block">
          <div class="news_pc">
-            <img class="news_bg" src="asset/img/home/bg01.png" alt="">
+            <!-- <img class="news_bg" src="asset/img/home/bg01.png" alt=""> -->
             <div class="container news_container">
-               <div class="box"></div>
-               <span class="news_logo">news</span>
+               <div class="box">
+                  <span class="news_logo">news</span>
+               </div>
                <div class="more_box">
                   <a href="news_list.html" target="blank">
                      <span>more</span>
@@ -225,7 +228,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-6">
-                     <div class="news_list">
+                     <div class="news_list aniview fast"  data-av-animation="slideInUp">
                         <a href="news_detail.html" target="_Blank">
                            <div class="image-zoom-on-hover">
                               <img src="asset/img/home/news_img01.png" alt="">
@@ -241,7 +244,7 @@
 
                   </div>
                   <div class="col-md-6">
-                     <div class="news_list">
+                     <div class="news_list aniview fast" data-av-animation="slideInUp">
                         <a href="news_detail.html" target="_Blank">
                            <div class=" image-zoom-on-hover">
                               <img src="asset/img/home/news_img02.png" alt="">
@@ -259,111 +262,120 @@
                </div>
                <div class="row">
                   <div class="col-md-4">
-                     <div class="news_list three">
-                        <div class=" image-zoom-on-hover">
-                           <img src="asset/img/home/news_03.png" alt="">
-                        </div>
+                     <div class="news_list three aniview fast" data-av-animation="slideInUp">
                         <a href="news_detail.html" target="_Blank">
+                           <div class=" image-zoom-on-hover">
+                              <img src="asset/img/home/news_03.png" alt="">
+                           </div>
                            <div class="news_desc">
                               Snapshot: larry bird reveals the life of the dream team
                            </div>
+
+                           <div class="news_time">
+                              2020-2
+                           </div>
                         </a>
-                        <div class="news_time">
-                           2020-2
-                        </div>
                      </div>
                   </div>
                   <div class="col-md-4">
-                     <div class="news_list three">
-                        <div class=" image-zoom-on-hover">
-                           <img src="asset/img/home/news_04.png" alt="">
-                        </div>
+                     <div class="news_list three aniview fast" data-av-animation="slideInUp">
                         <a href="news_detail.html" target="_Blank">
+
+                           <div class=" image-zoom-on-hover">
+                              <img src="asset/img/home/news_04.png" alt="">
+                           </div>
                            <div class="news_desc">
                               Snapshot: larry bird reveals the life of the dream team
                            </div>
+                           <div class="news_time">
+                              2020-2
+                           </div>
                         </a>
-                        <div class="news_time">
-                           2020-2
-                        </div>
                      </div>
                   </div>
                   <div class="col-md-4">
-                     <div class="news_list three">
-                        <div class=" image-zoom-on-hover">
-                           <img src="asset/img/home/news_img05.png" alt="">
-                        </div>
+                     <div class="news_list three aniview fast" data-av-animation="slideInUp">
                         <a href="news_detail.html" target="_Blank">
+
+                           <div class=" image-zoom-on-hover">
+                              <img src="asset/img/home/news_img05.png" alt="">
+                           </div>
                            <div class="news_desc">
                               Snapshot: larry bird reveals the life of the dream team
                            </div>
+
+                           <div class="news_time">
+                              2020-2
+                           </div>
                         </a>
-                        <div class="news_time">
-                           2020-2
-                        </div>
                      </div>
                   </div>
                </div>
                <div class="row">
                   <div class="col-md-3">
-                     <div class="news_list four">
-                        <div class=" image-zoom-on-hover">
-                           <img src="asset/img/home/news_img06.png" alt="">
-                        </div>
+                     <div class="news_list four aniview fast" data-av-animation="slideInUp">
                         <a href="news_detail.html" target="_Blank">
+
+                           <div class=" image-zoom-on-hover">
+                              <img src="asset/img/home/news_img06.png" alt="">
+                           </div>
                            <div class="news_desc">
                               Snapshot: larry bird reveals the life of the dream team
                            </div>
+                           <div class="news_time">
+                              2020-2
+                           </div>
                         </a>
-                        <div class="news_time">
-                           2020-2
-                        </div>
                      </div>
                   </div>
                   <div class="col-md-3">
-                     <div class="news_list four">
-                        <div class=" image-zoom-on-hover">
-                           <img src="asset/img/home/news_img07.png" alt="">
-                        </div>
+                     <div class="news_list four aniview fast" data-av-animation="slideInUp">
                         <a href="news_detail.html" target="_Blank">
+
+                           <div class=" image-zoom-on-hover">
+                              <img src="asset/img/home/news_img07.png" alt="">
+                           </div>
                            <div class="news_desc">
                               Snapshot: larry bird reveals the life of the dream team
                            </div>
+                           <div class="news_time">
+                              2020-2
+                           </div>
                         </a>
-                        <div class="news_time">
-                           2020-2
-                        </div>
                      </div>
                   </div>
                   <div class="col-md-3">
-                     <div class="news_list four">
-                        <div class=" image-zoom-on-hover">
-                           <img src="asset/img/home/news_08.png" alt="">
-                        </div>
+                     <div class="news_list four aniview fast" data-av-animation="slideInUp">
                         <a href="news_detail.html" target="_Blank">
+
+                           <div class=" image-zoom-on-hover">
+                              <img src="asset/img/home/news_08.png" alt="">
+                           </div>
                            <div class="news_desc">
                               Snapshot: larry bird reveals the life of the dream team
                            </div>
+
+                           <div class="news_time">
+                              2020-2
+                           </div>
                         </a>
-                        <div class="news_time">
-                           2020-2
-                        </div>
                      </div>
 
                   </div>
                   <div class="col-md-3">
-                     <div class="news_list four">
-                        <div class=" image-zoom-on-hover">
-                           <img src="asset/img/home/news_img08.png" alt="">
-                        </div>
+                     <div class="news_list four aniview fast" data-av-animation="slideInUp">
                         <a href="news_detail.html" target="_Blank">
+
+                           <div class=" image-zoom-on-hover">
+                              <img src="asset/img/home/news_img08.png" alt="">
+                           </div>
                            <div class="news_desc">
                               Snapshot: larry bird reveals the life of the dream team
                            </div>
+                           <div class="news_time">
+                              2020-2
+                           </div>
                         </a>
-                        <div class="news_time">
-                           2020-2
-                        </div>
                      </div>
 
                   </div>
@@ -401,7 +413,10 @@
          </div>
       </div>
       <!-- 移动端group companies模块 -->
-      <div class="container companies mobile">
+      <div class="container companies">
+         <div class="companies_bg">
+            <img src="asset/img/logo/wanda.png" alt="">
+         </div>
          <div class="companies_title">Group Companies</div>
          <div class="row companies_logos">
             <div class="col-md-4 companies_logo">
@@ -433,13 +448,15 @@
    </div>
    @@include('include/footer.html')
    @@include('include/agreement.html')
- 
+
    <script src="asset/plug/jquery.min.js"></script>
    <script src="asset/plug/swiper.jquery.min.js"></script>
    <script src="asset/plug/jquery.barfiller.js"></script>
    <script src="asset/plug/jquery.magnific-popup.js"></script>
+   <script src="asset/plug/jquery.aniview.js"></script>
+
    <script src="asset/js/js.js"></script>
- 
+
 </body>
 
 </html>

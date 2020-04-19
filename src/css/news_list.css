@@ -36,12 +36,15 @@
     .new_list_box{
         padding:  0 15px;
     }
-    .mobile .new_list .list p{
+    .mobile .new_list a .list p{
         padding: 20px 10px;
         font-size: 15px;
+        line-height: 20px;
+        color: #333;
     }
-    .mobile .new_list .list .time{
+    .mobile .new_list a .list .time{
         font-size: 12px;
+        color: #333;
     }
     .mobile .new_list .list{
         box-shadow:3px 5px 5.5px 1px rgba(51,51,51,0.15);
@@ -56,24 +59,24 @@
     }
 }
 .new_list{
-    margin-top: 105px;
-    margin-bottom: 105px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
     font-family: Georgia;
 }
 .news_nav{
-    margin-bottom: 68px;
-    background-color: #fff;
+    margin-bottom: 0.6rem;
+    /* background-color: #fff; */
 }
 .news_nav .item{
     display: inline-block;
-    font-size: 22px;
-    line-height: 53px;
+    font-size: 0.25rem;
+    line-height: 0.2rem;
     text-align: center;
     color: #fff;
-    margin-right: 60px;
+    margin-right: 0.6rem;
     color: #005BAB;
     cursor: pointer;
-    padding: 0 5px;
+    padding: 0.18rem 0.07rem;
     font-weight: bold;
 }
 .news_nav .item.active{
@@ -84,22 +87,33 @@
 .new_list .list{
     background:rgba(255,255,255,1);
 box-shadow:4px 5px 8px 1px rgba(51,51,51,0.15);
-padding-bottom: 26px;
-margin-bottom: 53px;
+padding-bottom: 0.3rem;
+margin-bottom: 0.6rem;
 cursor: pointer;
 }
-.new_list .list p{
-    padding: 23px 2px;
-    font-size: 21px;
+.new_list a .list p{
+    padding: 0.3rem 0.04rem;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    margin: 0;
+    color: #333;
 }
-.new_list .list img{
+.new_list_box a:hover .list p{
+    color: #005BAB;
+}
+.new_list a:hover{
+    text-decoration: none;
+}
+.new_list  .list img{
     width: 100%;
     height: auto;
 }
-.new_list .list .time{
-    font-size: 21px;
+.new_list a .list .time{
+    font-size: 0.24rem;
+    line-height: 0.14rem;
     text-align: right;
-    padding-right: 8px;
+    padding-right: 0.1rem;
+    color: #333;
 }
 .pages{
     text-align: center;
@@ -117,6 +131,10 @@ cursor: pointer;
 }
 .pages .paginations a{
     text-decoration: none;
+}
+.pages .paginations a:hover{
+    color: #005BAB;
+    border:1px solid #005BAB;
 }
 .pages .paginations .prev{
     width: 44px;

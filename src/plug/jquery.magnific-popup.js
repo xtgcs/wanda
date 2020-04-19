@@ -1137,7 +1137,7 @@
 				'<div class="mfp-bottom-bar">' +
 				'<div class="mfp-title"></div>' +
 				'<div class="mfp-download">' +
-				'<img src="asset/img/xiazai.png" alt="" class="download"><span class="text">Download</span>'+
+				'<span class="download"></span></span> <span class="text">Download</span>'+
 				'</div> ' +
 				'</div>' +
 				'</figcaption>' +

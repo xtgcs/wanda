@@ -29,8 +29,8 @@
 
     /* 图片下载页样式 */
 
-    .pictures_m {
-        padding: 0 24.5px;
+    .container.pictures_m {
+        padding: 0 10px;
     }
 
     .pictures_m.pictures .title {
@@ -42,7 +42,9 @@
     .pictures_m .pictures_list {
         margin-bottom: 15px;
     }
-
+    .pictures_m .pictures_list .row{
+        margin: 0;
+    }
     .pictures_m .pictures_list .list {
         background: rgba(255, 255, 255, 1);
         box-shadow: 4px 7px 7px 1px rgba(51, 51, 51, 0.15);
@@ -50,11 +52,11 @@
     }
 
     .pictures_m .pictures_list .pictures_item {
-        padding: 0 5.5px;
+        padding: 0 5px;
     }
 
     .pictures_m .pictures_list .list>p {
-        padding: 10px 0;
+        padding: 10px 5px;
         font-size: 12px;
     }
 
@@ -82,6 +84,7 @@
         margin-bottom: 26px;
         font-size: 18px;
         text-align: center;
+        line-height: 20px;
     }
 
     .mobile.releases .title span {
@@ -199,7 +202,7 @@
     }
 
     .news_wrap.mobile .item .news_desc_box {
-        padding: 15px 20px;
+        padding: 10px;
     }
 
     .news_wrap.mobile .item .news_desc_box>p {
@@ -241,7 +244,7 @@
     }
 
     .mobile.video_bg .more {
-        padding-top: 15px;
+        padding-top: 0;
 
     }
 
@@ -258,6 +261,7 @@
         width: 7px;
         height: 8px;
         margin-left: 0;
+        vertical-align: initial;
     }
 
     .mobile.videos {
@@ -294,7 +298,9 @@
         text-align: center;
         padding-bottom: 24px;
     }
-
+    .mobile .pictures{
+        margin-bottom: 25px;
+    }
     .mobile .pictures .more {
         float: none !important;
         font-size: 12px;
@@ -310,16 +316,17 @@
     .mobile .pictures .more img {
         width: 7px;
         height: 8px;
-        vertical-align: middle;
+        vertical-align: initial;
     }
 
     .mobile .pictures .pictures_title {
         float: none !important;
         font-size: 15px;
+        line-height: 18px;
         text-transform: capitalize;
 
     }
-
+  
     .mobile .pictures .more>span {
         text-transform: uppercase;
 
@@ -369,13 +376,21 @@
         margin-bottom: 10px;
     }
 
-    .mobile .documents .item {
+   .mediatool.mobile .documents .item {
         background: rgba(255, 255, 255, 1);
         box-shadow: 2px 4px 5px 0.5px rgba(51,51,51,0.15);
         font-size: 15px;
+        padding: 15px 10px;
+        line-height: 21px;
+        height: 65px;
+
+    }
+    .mobile.mediatool .item_box .item{
+        height: 67.5px;
     }
    .mobile .mediatool .item_box .item p{
        font-size: 10px;
+       line-height: 12px;
    }
    .mfp-wrap .mfp-arrow{
       width: 9px;
@@ -453,44 +468,34 @@
     background: url(../img/news/news_banner1.png)no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 237px;
-    padding-bottom: 70px;
+    padding-top: 2.7rem;
+    padding-bottom: 0.79rem;
     background-position: center;
     color: #fff;
 }
 
-/* .news .banner_content{
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 70px;
-    padding-top: 235px;
-    color: #fff;
-} */
 .news .banner_title {
-    font-size: 44px;
+    font-size: 0.5rem;
     font-weight: bold;
 }
 
 .news .banner_btn {
-    width: 438px;
+    width: 5rem;
     background: linear-gradient(90deg, rgba(0, 91, 172, 1) 0%, rgba(0, 91, 172, 0) 100%);
-    padding: 18px 35px;
-    margin-top: 35px;
+    padding: 0.2rem 0.4rem;
+    margin-top: 0.4rem;
     cursor: pointer;
 }
 .news .banner_btn span {
-    font-size: 23px;
+    font-size: 0.26rem;
     font-weight: bold;
-    line-height: 23px;
+    line-height: 0.26rem;
     color: #fff;
-    padding-top: 3.5px;
+    padding-top: 0.04rem;
 }
 .news .banner_btn img{
-    width: 17px;
-    height: 30px;
+    width: 0.18rem;
+    height: 0.32rem;
 }
 
 .releases {
@@ -517,23 +522,24 @@
 }
 
 .releases .title {
-    margin-top: 105px;
-    margin-bottom: 51px;
-    font-size: 44px;
+    margin-top: 1.2rem;
+    margin-bottom: 0.59rem;
+    font-size: 0.5rem;
+    line-height: 0.4rem;
     color: #333333;
 }
 
 .releases .more {
     cursor: pointer;
     color: #333333;
-    font-size: 23px;
+    font-size: 0.26rem;
     text-transform: uppercase;
     font-family: Georgia;
 }
 
 .releases .more img {
-    width: 16px;
-    height: 16px;
+    width: 0.18rem;
+    height: 0.18rem;
     vertical-align: initial;
 }
 
@@ -579,14 +585,16 @@
 }
 
 .releases .item .news_desc_box p {
-    font-size: 21px;
-    color: #421010;
+    font-size: 0.24rem;
+    color: #333333;
 }
-
+.releases_item a:hover .news_desc_box p{
+    color: #005BAC;
+}
 .releases .news_desc_box {
     position: static;
     background: rgba(255, 255, 255, 1);
-    padding: 26px 16px;
+    padding: 0.3rem 0.2rem;
 }
 
 .news_wrap .item {
@@ -596,8 +604,9 @@
 .news_wrap .list {
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 52px;
+    margin-bottom: 0.6rem;
     cursor: pointer;
+    background-color: #fff;
     /* margin-right: 24px; */
 }
 
@@ -619,26 +628,26 @@
 }
 
 .releases .item .news_desc p {
-    font-size: 21px;
+    font-size: 0.24rem;
     color: #333333;
-    /* padding: 0 15px;
-    padding-bottom: 30px; */
-    padding: 13px 15px;
+    padding: 0.3rem 0.2rem;
 }
-
+.releases .item a:hover .news_desc p{
+    color: #005BAC;
+}
 .news_info .type {
     background: rgba(72, 142, 218, 1);
     color: #FFFFFF;
-    font-size: 21px;
-    line-height: 25px;
-    padding: 0 20px;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    padding: 0 0.24rem;
     font-weight: bold;
 }
 
 .news_info .time {
-    font-size: 21px;
+    font-size: 0.24rem;
     color: #969696;
-    padding-right: 15px;
+    padding-right: 0.19rem
 }
 
 .news_wrap {
@@ -665,30 +674,31 @@
     background: url(../img/news/news_banner2.png)no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 80px;
-    padding-bottom: 107px;
+    padding-top: 0.92rem;
+    padding-bottom: 1.23rem;
     background-position: center;
 }
 
 .video_bg .rect {
     position: relative;
-    width: 188px;
-    height: 74px;
-    border: 4px solid rgba(255, 255, 255, 0.4);
-    left: -105px;
+    width: 2.15rem;
+    height: 0.85rem;
+    border: 0.04rem solid rgba(255, 255, 255, 0.4);
+    left: -1.24rem;
 }
 
 .video_bg .rect .title {
     position: absolute;
-    top: 20px;
-    left: 106px;
-    font-size: 44px;
+    top: 0.23rem;
+    left: 1.22rem;
+    font-size: 0.5rem;
+    line-height: 0.4rem;
     font-family: Georgia;
     font-weight: bold;
     color: #fff;
     text-shadow: 0px 11px 18px rgba(51, 51, 51, 0.21);
     text-transform: uppercase;
-    line-height: 33px;
+
 }
 
 .video_bg .more {
@@ -697,7 +707,7 @@
 }
 
 .video_bg .more>a span {
-    font-size: 23px;
+    font-size: 0.26rem;
     color: #fff;
     font-family: Georgia;
     text-transform: uppercase;
@@ -706,14 +716,14 @@
 }
 
 .video_bg .more>a img {
-    width: 16px;
-    height: 16px;
-    margin-left: 16px;
+    width: 0.18rem;
+    height: 0.18rem;
+    margin-left: 0.18rem;
     vertical-align: middle;
 }
 
 .videos {
-    margin-top: -100px;
+    margin-top: -1.06rem;
 }
 
 .videos .item {
@@ -740,50 +750,53 @@
     bottom: 0;
     left: 0;
     right: 0;
-    font-size: 23px;
+    font-size: 0.26rem;
     font-family: Georgia;
     font-weight: bold;
     color: #fff;
-    padding: 19px 35px;
-    line-height: 23px;
+    padding: 0.22rem 0.4rem;
+    line-height: 0.26rem;
     background: linear-gradient(90deg, rgba(0, 91, 172, 1) 0%, rgba(0, 91, 172, 0) 100%);
 }
 
 .mediatool {
-    margin-top: 105px;
-    margin-bottom: 105px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
     font-family: Georgia;
 }
 
 .mediatool .title {
-    font-size: 44px;
+    font-size: 0.5rem;
+    line-height: 0.4rem;
     font-family: Georgia;
     font-weight: bold;
     color: #333333;
-    padding-bottom: 35px;
+    padding-bottom: 0.41rem;
     text-transform: uppercase;
 }
 
 .pictures {
-    margin-bottom: 24px;
+    margin-bottom: 0.28rem;
 }
 
 .pictures_box {
-    width: 62%;
+    width: 70%;
 }
 
 .pictures .pictures_title {
-    font-size: 37px;
+    font-size: 0.42rem;
+    line-height: 0.37rem;
     font-family: Georgia;
     font-weight: bold;
     color: #333;
+    padding-top: 0.1rem;
 }
 
 .pictures .more {
-    font-size: 23px;
+    font-size: 0.26rem;
     font-family: Georgia;
     cursor: pointer;
-    padding-top: 10px;
+    padding-top: 0.09rem;
 }
 
 .pictures .more a {
@@ -792,13 +805,15 @@
 }
 
 .pictures .more a img {
-    width: 14px;
-    height: 14px;
+    width: 0.14rem;
+    height: 0.14rem;
 }
 
 .mediatool .item_box .item {
     position: relative;
     cursor: pointer;
+    height: 1.5rem;
+    
 }
 
 .mediatool .item_box {
@@ -818,27 +833,31 @@
 .mediatool .item_box .item p {
     position: absolute;
     background: rgba(51, 51, 51, 0.6);
-    font-size: 16px;
+    font-size: 0.18rem;
     font-family: Georgia;
     color: #fff;
     bottom: 0;
     left: 0;
     right: 0;
-    padding-left: 17px;
+    padding:0.06rem 0.2rem;
+    margin: 0;
+    line-height: 0.19rem;
 }
 
 .documents {
-    width: 38%;
-    padding-left: 37.5px;
+    width: 30%;
+    padding-left: 0.6rem;
 }
 
 .documents .item {
     background: rgba(255, 255, 255, 1);
     box-shadow: 4px 5px 8px 1px rgba(51,51,51,0.15);
-    font-size: 21px;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
     font-family: Georgia;
-    padding: 14px 21px 21px 21px;
+    padding: 0.21rem;
     position: relative;
+    height: 1.5rem;
 }
 
 .documents .item_pr>img {

@@ -40,11 +40,12 @@ $(function () {
     _functions.scrollCall = function () {
         winScr = $(window).scrollTop();
         if (winScr > 130) {
-            $(".tt-header").addClass("stick fadeInDown animated");
+            $(".m_header").addClass("stick fadeInDown animated");
         } else {
-            $(".tt-header").removeClass("stick fadeInDown animated");
+            $(".m_header").removeClass("stick fadeInDown animated");
         }
     };
+
     var initIterator = 0;
     _functions.initSwiper = function () {
         $('.swiper-container').not('.initialized').each(function () {
@@ -268,390 +269,8 @@ $(function () {
             }
         });
     }
-    // $('.barfiller1').barfiller({
-    //     barColor: '#f2c21a'
-    // });
-    // var owl = $('.owl-carousel1');
-    // owl.owlCarousel({
-    //     margin: 30,
-    //     nav: true,
-    //     loop: true,
-    //     autoplay: true,
-    //     autoplayTimeout: 1000,
-    //     autoplayHoverPause: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         600: {
-    //             margin: 0,
-    //             items: 2
-    //         },
-    //         767: {
-    //             margin: 30,
-    //             items: 2,
-    //         },
-    //         1000: {
-    //             items: 3
-    //         }
-    //     }
-    // });
-    // $('.play').on('click',
-    //     function () {
-    //         owl.trigger('play.owl.autoplay', [1000])
-    //     });
-    // $('.stop').on('click',
-    //     function () {
-    //         owl.trigger('stop.owl.autoplay')
-    //     });
-    // var owl = $('.owl-carousel2');
-    // owl.owlCarousel({
-    //     margin: 0,
-    //     nav: true,
-    //     loop: true,
-    //     autoplay: true,
-    //     autoplayTimeout: 1000,
-    //     autoplayHoverPause: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1
-    //         },
-    //         414: {
-    //             items: 2
-    //         },
-    //         600: {
-    //             items: 3
-    //         },
-    //         1000: {
-    //             items: 4
-    //         },
-    //         1200: {
-    //             items: 5
-    //         }
-    //     }
-    // });
-    // var owl = $('.owl-carousel10');
-    // owl.owlCarousel({
-    //     margin: 30,
-    //     nav: true,
-    //     loop: true,
-    //     autoplay: true,
-    //     autoplayTimeout: 1000,
-    //     autoplayHoverPause: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         600: {
-    //             margin: 0,
-    //             items: 2
-    //         },
-    //         767: {
-    //             margin: 30,
-    //             items: 2,
-    //         },
-    //         1000: {
-    //             items: 3
-    //         }
-    //     }
-    // });
-    // var owl = $('.owl-carousel11');
-    // owl.owlCarousel({
-    //     margin: 30,
-    //     nav: true,
-    //     loop: true,
-    //     autoplay: true,
-    //     autoplayTimeout: 1000,
-    //     autoplayHoverPause: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         600: {
-    //             margin: 30,
-    //             items: 2
-    //         },
-    //         767: {
-    //             margin: 30,
-    //             items: 2,
-    //         },
-    //         1000: {
-    //             items: 4
-    //         }
-    //     }
-    // });
-    // var owl = $('.owl-carousel12');
-    // owl.owlCarousel({
-    //     margin: 30,
-    //     nav: true,
-    //     loop: true,
-    //     autoplay: true,
-    //     autoplayTimeout: 1000,
-    //     autoplayHoverPause: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         600: {
-    //             margin: 0,
-    //             items: 1
-    //         },
-    //         767: {
-    //             margin: 30,
-    //             items: 1,
-    //         },
-    //         1000: {
-    //             items: 1
-    //         }
-    //     }
-    // });
-    // var owl = $('.owl-carousel15');
-    // owl.owlCarousel({
-    //     margin: 30,
-    //     nav: true,
-    //     loop: true,
-    //     autoplay: true,
-    //     autoplayTimeout: 1000,
-    //     autoplayHoverPause: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         600: {
-    //             margin: 0,
-    //             items: 3
-    //         },
-    //         767: {
-    //             margin: 30,
-    //             items: 4,
-    //         },
-    //         1000: {
-    //             items: 5
-    //         }
-    //     }
-    // });
-    // var owl = $('.owl-carousel17');
-    // owl.owlCarousel({
-    //     margin: 30,
-    //     nav: true,
-    //     loop: true,
-    //     autoplay: true,
-    //     autoplayTimeout: 1000,
-    //     autoplayHoverPause: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         600: {
-    //             margin: 0,
-    //             items: 3
-    //         },
-    //         767: {
-    //             margin: 30,
-    //             items: 3,
-    //         },
-    //         1000: {
-    //             items: 4
-    //         }
-    //     }
-    // });
-    // $('.owl-carousel3 ').owlCarousel({
-    //     loop: true,
-    //     margin: 10,
-    //     nav: true,
-    //     loop: true,
-    //     nav: true,
-    //     autoplay: true,
-    //     smartSpeed: 1500,
-    //     autoplayHoverPause: false,
-    //     fluidSpeed: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         600: {
-    //             items: 1,
-    //         },
-    //         1000: {
-    //             items: 1,
-    //         }
-    //     }
-    // });
-    // $(".owl-prev").html('<i class="icofont icofont-thin-left"></i>');
-    // $(".owl-next").html('<i class="icofont icofont-thin-right"></i>');
-    // $('.owl-carousel4 ').owlCarousel({
-    //     loop: true,
-    //     margin: 30,
-    //     loop: true,
-    //     dots: true,
-    //     autoplay: true,
-    //     smartSpeed: 1500,
-    //     pagination: false,
-    //     navigation: true,
-    //     autoplayHoverPause: false,
-    //     fluidSpeed: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         767: {
-    //             items: 2,
-    //         },
-    //         992: {
-    //             items: 3,
-    //         }
-    //     }
-    // });
-    // $('.owl-carousel5 ').owlCarousel({
-    //     nav: true,
-    //     loop: true,
-    //     margin: 30,
-    //     dots: true,
-    //     autoplay: true,
-    //     smartSpeed: 1500,
-    //     pagination: false,
-    //     navigation: true,
-    //     autoplayHoverPause: false,
-    //     fluidSpeed: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         600: {
-    //             items: 1,
-    //         },
-    //         991: {
-    //             items: 1,
-    //         }
-    //     }
-    // });
-    // $('.owl-carousel6 ').owlCarousel({
-    //     margin: 30,
-    //     loop: true,
-    //     dots: true,
-    //     nav: true,
-    //     autoplay: true,
-    //     smartSpeed: 1500,
-    //     pagination: false,
-    //     navigation: true,
-    //     autoplayHoverPause: false,
-    //     fluidSpeed: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         414: {
-    //             items: 1,
-    //         },
-    //         767: {
-    //             items: 1,
-    //         },
-    //         991: {
-    //             items: 2,
-    //         }
-    //     }
-    // });
-    // $(".owl-prev").html('<i class="icofont icofont-rounded-left"></i>');
-    // $(".owl-next").html('<i class="icofont icofont-rounded-right"></i>');
-    // $('.owl-carousel8 ').owlCarousel({
-    //     margin: 30,
-    //     loop: true,
-    //     dots: true,
-    //     nav: true,
-    //     autoplay: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1,
-    //         },
-    //         414: {
-    //             items: 1,
-    //         },
-    //         767: {
-    //             items: 1,
-    //         },
-    //         991: {
-    //             items: 2,
-    //         }
-    //     }
-    // });
-    // $(".owl-prev").html('<i class="fa fa-angle-left"></i>');
-    // $(".owl-next").html('<i class="fa fa-angle-right"></i>');
-    // var owl = $('.owl-carousel7');
-    // owl.owlCarousel({
-    //     margin: 0,
-    //     nav: true,
-    //     loop: true,
-    //     autoplay: true,
-    //     autoplayTimeout: 1000,
-    //     autoplayHoverPause: true,
-    //     responsive: {
-    //         0: {
-    //             items: 1
-    //         },
-    //         500: {
-    //             items: 2
-    //         },
-    //         650: {
-    //             items: 2
-    //         },
-    //         767: {
-    //             items: 3
-    //         },
-    //         1000: {
-    //             items: 2
-    //         },
-    //         1200: {
-    //             items: 5
-    //         }
-    //     }
-    // });
-    // $('.play').on('click',
-    //     function () {
-    //         owl.trigger('play.owl.autoplay', [1000])
-    //     });
-    // $('.stop').on('click',
-    //     function () {
-    //         owl.trigger('stop.owl.autoplay')
-    //     });
-    // $('.strip_05 .border-left22 h2').each(function () {
-    //     $(this).prop('Counter', 0).animate({
-    //         Counter: $(this).text()
-    //     },
-    //         {
-    //             duration: 25000,
-    //             easing: 'swing',
-    //             step: function (now) {
-    //                 $(this).text(Math.ceil(now));
-    //             }
-    //         });
-    // });
-    // $(window).scroll(function () {
-    //     if ($(this).scrollTop() > 100) {
-    //         $('#mkdf-back-to-top').addClass('on');
-    //     } else {
-    //         $('#mkdf-back-to-top').removeClass('on');
-    //     }
-    // });
-    // $('#mkdf-back-to-top').click(function () {
-    //     $("html, body").animate({
-    //         scrollTop: 0
-    //     },
-    //         600);
-    //     return false;
-    // });
-    // $('.barfiller1').barfiller({
-    //     barColor: '#fb5b21'
-    // });
-    // $('.input-number-increment').click(function () {
-    //     var $input = $(this).parents('.input-number-group').find('.input-number');
-    //     var val = parseInt($input.val(), 10);
-    //     $input.val(val + 1);
-    // });
-    // $('.input-number-decrement').click(function () {
-    //     var $input = $(this).parents('.input-number-group').find('.input-number');
-    //     var val = parseInt($input.val(), 10);
-    //     $input.val(val - 1);
-    // });
+
+
 
     var magnificPopup = $.magnificPopup.instance;
     $('.close_icon').click(function () {
@@ -687,17 +306,6 @@ $(function () {
         $('.footer_h').hide();
     })
 
-    //about页面点击更多
-    // $('.company_content_more').click(function () {
-    //     $('.company_img ').css('float', 'left');
-    //     $('.company_content_box').css({ 'max-height': 'none', 'overflow': 'auto' });
-    // })
-    // var texts = $(".company_m_content").text().length;
-    // if (texts > 500) {
-    //     var String = $(".company_m_content").text().substr(0, 200);
-    //     $(".company_m_content").text(String);
-    //     $('.company_m').append('<div class="company_m_more"> <span>More</span><img src="asset/img/about/about_icon.png" alt=""></div>');
-    // }
 
     $('.company_m_more').click(function () {
         if ($(".company_m_content").css('max-height') == 'none') {
@@ -731,13 +339,29 @@ $(function () {
             .siblings().removeClass("active");
     });
 
+
+    function setRemFontSize() {
+        var remSize = window.innerWidth * 100 / 1920;
+        document.querySelector("html").style.fontSize = remSize + "px";
+    }
+    setRemFontSize();
+    window.addEventListener("resize", function () {
+        setTimeout(function () {
+            setRemFontSize();
+        }, 200)
+    });
+
+
+
+    var options = {
+        animateThreshold: -300,
+        scrollPollInterval: 50
+    }
+    $('.aniview').AniView(options);
 });
 
 
   $(".video_link").click(function() {
-    // $('#modal').show().get(0).offsetHeight;
-    // $('#page-wrapper').addClass('modal-mode');
-    // document.documentElement.style.overflow='hidden';
     var myPlayer = videojs('my-video');
     var videoUrl = $(this).attr("videohref");
     videojs("my-video", {}, function() {
@@ -747,8 +371,6 @@ $(function () {
         myPlayer.load(videoUrl);
         myPlayer.play();
     });
-    // $('.modal_hide').remove();
-
 });
 
 $('.open-popup-link').magnificPopup({

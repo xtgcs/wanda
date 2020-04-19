@@ -10,9 +10,11 @@
      .mass_m.mass_container .title{
        font-size: 18px;
        margin-bottom: 25px;
+       text-align: center;
      }
      .mass_m.mass_container p{
          font-size: 15px;
+         line-height: 20px;
          text-align: justify;
      }
      .mass_m .item_box{
@@ -59,15 +61,18 @@
     margin-bottom: 90px;
 }
 .mass{
-   margin: 105px 0 88px 0;
+   margin-top: 1.2rem ;
 }
 .mass_container .title{
-  font-size: 44px;
-  margin-bottom: 50px;
+  font-size: 0.5rem;
+  line-height: 0.49rem;
+  margin-bottom: 0.59rem;
   font-weight: Bold;
 }
 .mass_container p{
-    font-size: 21px;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    margin: 0;
     
 }
 .triathlon img , .running img{
@@ -86,20 +91,22 @@
     margin-top:90px;
 }
 .triathlon{
-    margin-top:90px;
+    margin-top:1.2rem;
 }
 
 /* companies样式 */
 
 .companies_container .title{
    margin-bottom: 0;
-   margin-top: 105px;
-   line-height: 43px;
+   margin-top: 1.2rem;
+   line-height: 0.49rem;
+   font-size: 0.5rem;
 }
 .companies_logos{
-    margin-top: 53px;
+    margin-top: 0.6rem;
 }
-/* .footer {
-    position: absolute;
-    bottom: 0;
-} */
+
+.companies_logos .item img{
+    width: 100%;
+    height: auto;
+}

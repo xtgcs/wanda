@@ -13,7 +13,9 @@
 </head>
 
 <body>
-    @@include('include/header.html')
+    @@include('include/header.html',{
+        "news": "active"
+     })
     @@include('include/banner.html')
     <div class="container  videos_container mobile">
         <div class="title">Videos</div>
@@ -57,6 +59,8 @@
     <script src="asset/plug/swiper.jquery.min.js"></script>
     <script src="asset/plug/jquery.barfiller.js"></script>
     <script src="asset/plug/jquery.magnific-popup.js"></script>
+    <script src="asset/plug/jquery.aniview.js"></script>
+    <script src="asset/plug/video.min.js"></script> 
     <script src="asset/js/js.js"></script>
 
 </body>

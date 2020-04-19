@@ -1,9 +1,6 @@
 
 
   $(".video_link").click(function() {
-    // $('#modal').show().get(0).offsetHeight;
-    // $('#page-wrapper').addClass('modal-mode');
-    // document.documentElement.style.overflow='hidden';
     var myPlayer = videojs('my-video');
     var videoUrl = $(this).attr("videohref");
     videojs("my-video", {}, function() {
@@ -13,8 +10,6 @@
         myPlayer.load(videoUrl);
         myPlayer.play();
     });
-    // $('.modal_hide').remove();
-
 });
 
 $('.open-popup-link').magnificPopup({
