@@ -63,7 +63,7 @@
     transform: translate3d(-50%,0,0);
   }
   .mobile .mfp-download .download{
-    background: url(../img/xiazai.png) no-repeat;
+    background: url(../img/down.png) no-repeat;
     background-size: 15px 13px;
     display: inline-block;
     width: 15px;
@@ -246,10 +246,10 @@ button::-moz-focus-inner {
 }
 
 .mfp-download .download{
-  background: url(../img/xiazai.png) no-repeat;
-  background-size: 0.56rem 0.46rem;
+  background: url(../img/down.png) no-repeat;
+  background-size: 0.55rem 0.46rem;
   display: inline-block;
-  width: 0.56rem;
+  width: 0.55rem;
   height: 0.46rem;
   vertical-align: middle;
 }

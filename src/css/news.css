@@ -305,6 +305,7 @@
         float: none !important;
         font-size: 12px;
         color: #969696;
+
     }
 
     .mobile .pictures .more span {
@@ -799,6 +800,10 @@
     padding-top: 0.09rem;
 }
 
+.pictures .more span{
+    text-transform: uppercase;
+    vertical-align: middle;
+}
 .pictures .more a {
     color: #333;
     text-decoration: none;
@@ -807,6 +812,7 @@
 .pictures .more a img {
     width: 0.14rem;
     height: 0.14rem;
+    vertical-align: middle;
 }
 
 .mediatool .item_box .item {
@@ -846,7 +852,7 @@
 
 .documents {
     width: 30%;
-    padding-left: 0.6rem;
+    padding-left: 0.4rem;
 }
 
 .documents .item {
@@ -855,7 +861,7 @@
     font-size: 0.24rem;
     line-height: 0.36rem;
     font-family: Georgia;
-    padding: 0.21rem;
+    padding: 0.18rem;
     position: relative;
     height: 1.5rem;
 }
