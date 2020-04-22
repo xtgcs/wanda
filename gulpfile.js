@@ -24,7 +24,7 @@ var webServerRoot = 'dist/',
   appPlugPath = webServerRoot + 'asset/plug/';
 
 gulp.task('default', ['build-dev', 'webserver', 'watch']);
-gulp.task('build-dev', ['fileinclude','minifycss', 'build-jsApp-dev', 'build-js-dev', 'build-img-dev', 'copy-plug']);
+gulp.task('build-dev', ['fileinclude', 'minifycss', 'build-jsApp-dev', 'build-js-dev', 'build-img-dev', 'copy-plug']);
 
 
 gulp.task('webserver', ['build-dev'], function () {
@@ -55,7 +55,8 @@ gulp.task('clean-html', function () {
 //压缩css
 gulp.task('minifycss', function () {
   return gulp.src('src/css/*.css')
-     .pipe(concat('main.css'))  //需要操作的文件
+    .pipe(autoprefixer([{ browsers: ['IE 8', 'IE 9', 'last 5 versions'] }]))
+    .pipe(concat('main.css'))  //需要操作的文件
     .pipe(rename({ suffix: '.min' }))   //rename压缩后的文件名
     .pipe(minifycss())   //执行压缩
     .pipe(gulp.dest(appCssPath))
