@@ -34,7 +34,11 @@
     }
 
     .new_list_box{
-        padding:  0 15px;
+        /* padding:  0 15px; */
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
     .mobile .new_list a .list p{
         padding: 20px 10px;

@@ -2,11 +2,18 @@
 <html lang="en">
 
 <head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <meta name="format-detection" content="telephone=no" />
    <meta name="apple-mobile-web-app-capable" content="yes" />
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
    <link href="asset/css/main.min.css" rel="stylesheet" type="text/css">
+   <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <script src="asset/plug/rem.js"></script>
+
    <title>万达体育</title>
 </head>
 
@@ -99,7 +106,7 @@
                            <span class="pull-left">Read more</span>
                            <span class="pull-right">
                               <img src="asset/img/right_icon.png" alt="">
-                           </span></span>
+                          </span>
                         </a>
                      </div>
 
@@ -123,17 +130,16 @@
                            <span class="pull-left">Read more</span>
                            <span class="pull-right">
                               <img src="asset/img/right_icon.png" alt="">
-                           </span></span>
-
+                           </span>
                         </a>
                      </div>
-
                   </div>
                </div>
 
             </div>
          </div>
-         <div class="swiper-pagination fixed swiper-pagination-white"></div>
+         <div class="pagination"></div>
+         <!-- <div class="swiper-pagination fixed swiper-pagination-white"></div> -->
       </div>
       <!-- 移动端businesses模块 -->
       <div class="businesses mobile visible-xs-block visible-sm-block">
@@ -183,7 +189,7 @@
          </div>
       </div>
       <!-- pc端businesses模块 -->
-      <div class="container businesses_pc visible-md-block visible-lg-block" >
+      <div class="container businesses_pc visible-md-block visible-lg-block">
          <div class="businesses_pc_title">
             OUR BUSINESSES
          </div>
@@ -192,7 +198,7 @@
             frontrunner in digital innovation
          </p>
          <div class="row">
-            <div class="pull-left businesses_content aniview"  data-av-animation="fadeInLeft">
+            <div class="pull-left businesses_content aniview" data-av-animation="fadeInLeft">
                <div class="item">
                   <a href="mass_participation.html" target="_Blank">
                      <div class="content_title">
@@ -293,7 +299,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-6">
-                     <div class="news_list aniview fast"  data-av-animation="slideInUp">
+                     <div class="news_list aniview fast" data-av-animation="slideInUp">
                         <a href="news_detail.html" target="_Blank">
                            <div class="image-zoom-on-hover">
                               <img src="asset/img/home/news_img01.png" alt="">
@@ -487,7 +493,11 @@
             <div class="col-md-4 companies_logo">
                <div class="image-zoom-on-hover">
                   <picture>
+                     <!--[if IE 9]><video style="display: none;"><![endif]-->
+
                      <source srcset="asset/img/logo/logo_01.png" media="(min-width: 992px)">
+                     <!--[if IE 9]></video><![endif]-->
+
                      <img src="asset/img/mobile/img01.png" />
                   </picture>
                </div>
@@ -495,7 +505,10 @@
             <div class="col-md-4 companies_logo">
                <div class="image-zoom-on-hover">
                   <picture>
+                     <!--[if IE 9]><video style="display: none;"><![endif]-->
+
                      <source srcset="asset/img/logo/logo_02.png" media="(min-width: 992px)">
+                     <!--[if IE 9]></video><![endif]-->
                      <img src="asset/img/mobile/img02.png" />
                   </picture>
                </div>
@@ -503,7 +516,9 @@
             <div class="col-md-4 companies_logo">
                <div class="image-zoom-on-hover">
                   <picture>
+                     <!--[if IE 9]><video style="display: none;"><![endif]-->
                      <source srcset="asset/img/logo/logo_03.png" media="(min-width: 992px)">
+                     <!--[if IE 9]></video><![endif]-->
                      <img src="asset/img/mobile/img03.png" />
                   </picture>
                </div>
@@ -522,14 +537,13 @@
              General Line:+8610 85853888
           </p>
           <p>
-             <br>
              <a href="#agreement-popup" class="agreement_link">
                 Privacy Policy
              </a>
           </p>
        </div>
     </div>
-    <div class="footer_h mobile"></div>
+    <!-- <div class="footer_h mobile"></div> -->
     <div class="footer_bottom">
        <div class="container">
           <div class="row">
@@ -550,6 +564,7 @@
        </div>
     </div>
  </div>
+ 
    <div id="agreement-popup" class="white-popup n_popup mfp-hide mobile">
     <div class="agreement">
        <div class="agreement_content">
@@ -595,14 +610,13 @@
     <div class="close_icon m pc"></div>
 
  </div>
-
+   <script src="asset/plug/picturefill.min.js"></script>
    <script src="asset/plug/jquery.min.js"></script>
-   <script src="asset/plug/swiper.jquery.min.js"></script>
+   <script src="asset/plug/swiper.min.js"></script>
    <script src="asset/plug/jquery.barfiller.js"></script>
    <script src="asset/plug/jquery.magnific-popup.js"></script>
    <script src="asset/plug/jquery.aniview.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js"></script>
-   <script src="asset/js/js.js"></script>  
+   <script src="asset/js/js.js"></script>
 
 </body>
 

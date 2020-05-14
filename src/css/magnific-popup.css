@@ -11,7 +11,7 @@
   }
 
   .mfp-figure .mfp-bottom-bar {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .mfp-figure .mfp-title {
@@ -63,10 +63,10 @@
     transform: translate3d(-50%,0,0);
   }
   .mobile .mfp-download .download{
-    background: url(../img/down.png) no-repeat;
-    background-size: 15px 13px;
+    background: url(../img/down_icon.png) no-repeat;
+    background-size: cover;
     display: inline-block;
-    width: 15px;
+    width: 18px;
     height: 13px;
     vertical-align: middle;
   }
@@ -246,10 +246,10 @@ button::-moz-focus-inner {
 }
 
 .mfp-download .download{
-  background: url(../img/down.png) no-repeat;
-  background-size: 0.55rem 0.46rem;
+  background: url(../img/down_icon.png) no-repeat;
+  background-size:cover;
   display: inline-block;
-  width: 0.55rem;
+  width: 0.61rem;
   height: 0.46rem;
   vertical-align: middle;
 }

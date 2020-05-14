@@ -175,7 +175,26 @@ a:hover {
         height: 500px;
         top: 50%;
         left: 50%;
-        transform: translate3d(-50%, -50%, 0);
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        /* IE 9 */
+        -moz-transform: translate(-50%, -50%);
+        /* Firefox */
+        -webkit-transform: translate(-50%, -50%);
+        /* Safari 和 Chrome */
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .mobile .leager {
+        padding: 0 15px;
+    }
+
+    .mobile .leager_title {
+        color: #333;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 20px;
     }
 
     .mobile .leadership {
@@ -357,13 +376,13 @@ a:hover {
     color: #333333;
 }
 
-.leager_ship {
+/* .leager_ship {
     margin-bottom: 1.2rem;
     position: relative;
     background: url(../img/about/about_img05.png) no-repeat;
     background-size: cover;
 
-}
+} */
 
 /* .leager_ship_bg{
      width: 100%;
@@ -378,11 +397,14 @@ a:hover {
      right: 0; */
 }
 
+.leager {
+    margin-bottom: 1.2rem;
+}
+
 .leager_title {
     font-weight: bold;
     font-size: 0.5rem;
     line-height: 0.5rem;
-    margin-bottom: 0.2rem;
 }
 
 .leager_content .leager_row {
@@ -449,7 +471,14 @@ a:link {
     height: 695px;
     top: 50%;
     left: 50%;
-    transform: translate3d(-50%, -50%, 0);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* IE 9 */
+    -moz-transform: translate(-50%, -50%);
+    /* Firefox */
+    -webkit-transform: translate(-50%, -50%);
+    /* Safari 和 Chrome */
+    -o-transform: translate(-50%, -50%);
 }
 
 .leadership {

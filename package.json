@@ -14,7 +14,6 @@
     "gulp-connect": "*",
     "gulp-csso": "*",
     "gulp-imagemin": "^7.1.0",
-    "gulp-jshint": "*",
     "gulp-less": "*",
     "gulp-minify-css": "^1.2.4",
     "gulp-refresh": "^1.1.0",
@@ -22,5 +21,16 @@
     "gulp-sourcemaps": "*",
     "gulp-uglify": "*",
     "imagemin-pngcrush": "^6.0.0"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",  
+    "ie >=9" , 
+    "since 2013" ,  
+    "Firefox ESR" , 
+    "Firefox > 20", 
+    "cover 99.5%",  
+    "unreleased versions" , 
+    "defaults" 
+  ]
 }

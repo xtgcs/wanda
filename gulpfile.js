@@ -22,9 +22,11 @@ var webServerRoot = 'dist/',
   appJsName = appName + '.js',
   appCssPath = webServerRoot + 'asset/css/',
   appPlugPath = webServerRoot + 'asset/plug/';
+  appFontsPath = webServerRoot + 'asset/fonts/';
+
 
 gulp.task('default', ['build-dev', 'webserver', 'watch']);
-gulp.task('build-dev', ['fileinclude', 'minifycss', 'build-jsApp-dev', 'build-js-dev', 'build-img-dev', 'copy-plug']);
+gulp.task('build-dev', ['fileinclude', 'minifycss', 'build-jsApp-dev', 'build-js-dev', 'build-img-dev', 'copy-plug','copy-fonts']);
 
 
 gulp.task('webserver', ['build-dev'], function () {
@@ -55,7 +57,7 @@ gulp.task('clean-html', function () {
 //压缩css
 gulp.task('minifycss', function () {
   return gulp.src('src/css/*.css')
-    .pipe(autoprefixer([{ browsers: ['IE 8', 'IE 9', 'last 5 versions'] }]))
+    .pipe(autoprefixer())
     .pipe(concat('main.css'))  //需要操作的文件
     .pipe(rename({ suffix: '.min' }))   //rename压缩后的文件名
     .pipe(minifycss())   //执行压缩
@@ -160,6 +162,16 @@ gulp.task('clean-plug', function () {
     .pipe(clean())
 });
 
+gulp.task('copy-fonts', ['clean-fonts'], function () {
+  gulp.src(['src/fonts/**/*'])
+    .pipe(gulp.dest(appFontsPath))
+    .pipe(connect.reload())
+});
+gulp.task('clean-fonts', function () {
+  return gulp.src(appFontsPath)
+    .pipe(clean())
+});
+
 gulp.task('watch', function () {
   gulp.watch('src/**/*.html', ['fileinclude']);
   gulp.watch('src/**/*.css', ['minifycss']);
@@ -168,4 +180,6 @@ gulp.task('watch', function () {
   gulp.watch(['src/**/js*.js'], ['build-js-dev']);
   gulp.watch('src/asset/img/**/*.*', ['build-img-dev']);
   gulp.watch('src/plug/**/*.*', ['copy-plug']);
+  gulp.watch('src/fonts/**/*.*', [' copy-fonts']);
+ 
 });
