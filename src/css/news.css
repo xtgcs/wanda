@@ -269,6 +269,7 @@
 
     .mobile.videos {
         margin-top: 25px;
+        margin-bottom: 40px;
     }
 
     .videos_box {
@@ -756,6 +757,8 @@
 
 .videos {
     margin-top: -1.06rem;
+    margin-bottom: 1.25rem;
+
 }
 
 .videos .item {

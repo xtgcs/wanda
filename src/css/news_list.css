@@ -9,7 +9,8 @@
         box-shadow:1px 1.5px 3px 0px rgba(51,51,51,0.15);
     }
     .mobile .news_nav .item{
-        width: 33.33%;
+        /* width: 33.33%; */
+        width: 50%;
         margin-right: 0;
         height: auto;
         font-size: 12px;
