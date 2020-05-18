@@ -21,10 +21,12 @@
         text-align: justify;
     }
 
-    .mass_m .item_box {
+    .mass_m .item_box.frist {
         margin: 0;
+        margin-bottom:50px;
+        box-shadow: none;
     }
-
+    .mass_m .item_box
     .mass_m .triathlon img,
     .running img,  .mass_m .triathlon_new img{
         width: 100%;
@@ -66,22 +68,19 @@
     }
 
     /* companies样式 */
-
     .mass_m.companies_container .title {
         margin-top: 40px;
         text-align: center;
     }
-
     .companies_logos {
         margin-top: 25px;
     }
-
     .mass_m.companies_container .triathlon .item {
         margin: 0;
         padding: 0;
         margin-bottom: 15px;
     }
-    .companies_logos .item .companies_container_title{
+    .mass_m .companies_logos .item .companies_container_title{
         font-size: 17px;
         text-align: center;
         padding-bottom: 15px;
@@ -89,10 +88,15 @@
     .companies_logos .item p{
         font-size: 15px;
     }
-   .mass_m .com .item_box{
-       margin-bottom: 0;
-       box-shadow: none;
-   }
+    .mass_m .item_box.pc{
+        display: none;
+    }
+    .mass_m .item_box.m{
+        display: block;
+        padding: 0 15px;
+        box-shadow: none;
+        margin-bottom: 0;
+    }
 }
 
 .mass_container {
@@ -191,7 +195,16 @@
 }
 
 .com .item_box{
-    box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.15);
-    margin-bottom: 50px;
+    margin-bottom: 0;
+}
+.com .item_box.frist{
+    border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+}
+.com .item_box.pc{
+    display: block;
+    padding-top: 20px;
+}
+.com .item_box.m{
+    display: none;
 }
 

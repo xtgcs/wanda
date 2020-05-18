@@ -86,16 +86,16 @@ $(function () {
     } catch (err) { }
 
     // 隐私协议显隐控制
-    // var agreement = localStorage.getItem('agreement');
-    // if (agreement == 'hide') {
-    //     $('.footer_bottom').hide();
-    //     $('.footer_h').hide();
-    // } else {
-    //     $('.footer_bottom').show();
-    //     $('.footer_h').show();
-    // }
+    var agreement = localStorage.getItem('agreement');
+    if (agreement == 'hide') {
+        $('.footer_bottom').hide();
+        $('.footer_h').hide();
+    } else {
+        $('.footer_bottom').show();
+        $('.footer_h').show();
+    }
     $('.result').click(function () {
-        // localStorage.setItem('agreement', 'hide');
+        localStorage.setItem('agreement', 'hide');
         $('.footer_bottom').hide();
         $('.footer_h').hide();
     })
