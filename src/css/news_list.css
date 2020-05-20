@@ -32,6 +32,7 @@
        width: 100%;
        line-height: 40px;
        display: inline-block;
+       color: #005BAB;
     }
 
     .new_list_box{
@@ -88,7 +89,7 @@
     background:rgba(0,91,171,1);
     font-weight: bold;
 }
-.news_nav .item.active a{
+.news_nav .item.active span{
     color: #FFFFFF;
 }
 .new_list .list{
