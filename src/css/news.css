@@ -166,6 +166,14 @@
     .mobile.releases .releases_box .item .news_desc .desc>p {
         font-size: 15px;
         padding-bottom: 0;
+        text-overflow: -o-ellipsis-lastline;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+        -webkit-box-orient: vertical;
+        height: 100%;
     }
 
     .releases .releases_box .item .news_desc .news_info .time {
@@ -210,6 +218,14 @@
 
     .news_wrap.mobile .item .news_desc_box>p {
         font-size: 15px;
+        text-overflow: -o-ellipsis-lastline;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+        -webkit-box-orient: vertical;
+        height: 100%;
     }
 
     .video_bg.mobile {
@@ -616,6 +632,15 @@
 .releases .item .news_desc_box p {
     font-size: 0.24rem;
     color: #333333;
+
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height:100%;
 }
 
 .releases_item a:hover .news_desc_box p {
@@ -662,6 +687,14 @@
     font-size: 0.24rem;
     color: #333333;
     padding: 0.3rem 0.2rem;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 1rem;
 }
 
 .releases .item a:hover .news_desc p {
