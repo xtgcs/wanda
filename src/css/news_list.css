@@ -86,8 +86,10 @@
 }
 .news_nav .item.active{
     background:rgba(0,91,171,1);
-    color: #FFF;
     font-weight: bold;
+}
+.news_nav .item.active a{
+    color: #FFFFFF;
 }
 .new_list .list{
     background:rgba(255,255,255,1);

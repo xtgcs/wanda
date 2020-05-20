@@ -48,6 +48,7 @@
         padding-right: 25px;
         padding-top: 15px;
         font-size: 12px;
+        text-align: center;
         
     }
     .mass_m .biking{
@@ -152,16 +153,19 @@
 .triathlon_new{
     margin-top: 0.4rem;
 }
+.triathlon_new .item{
+    padding-left: 0;
+}
 .biking{
     margin-top: 0.8rem;
 }
 .triathlon_new .title{
     font-size: 0.36rem;
     font-weight: bold;
-    text-align: center;
+    /* text-align: center; */
 }
 .triathlon_new .text{
-    text-align: center;
+    /* text-align: center; */
     font-size: 0.24rem;
     padding-top: 0.2rem;
 }

@@ -204,13 +204,13 @@
 }
 
 .result span {
-    font-size: 0.24rem;
+    font-size: 0.2rem;
     font-family: Georgia;
     display: inline-block;
-    width: 1.4rem;
-    height: 0.4rem;
+    width: 1.2rem;
+    height: 0.35rem;
     text-align: center;
-    line-height: 0.4rem;
+    line-height: 0.35rem;
     vertical-align: middle;
     cursor: pointer;
     color: #005BAC;
