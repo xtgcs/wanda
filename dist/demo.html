@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <style>
+       .main{
+           display: flex;
+           justify-content:center;
+           align-items:center;
+           opacity: 0;
+       }
+   </style>
+</head>
+<body>
+    <div class="main">
+        <form id='paysubmit' name='paysubmit' action='http://shop.ehuatai.com:7017/Payment/pay/goPay' method='POST'><input
+            type='hidden' name='returnUrl' value='https://api.betatrip.cn/beta2020/aboutUs?orderNo=11630' /><input
+            type='hidden' name='description' value='保单支付' /><input type='hidden' name='systemSource' value='ES' /><input
+            type='hidden' name='customerMobile' value='18600644035' /><input type='hidden' name='payAmount'
+            value='20' /><input type='hidden' name='channelCode' value='Z259000019' /><input type='hidden'
+            name='notifyUrl' value='http://10.2.33.24:8180/EbizCore/callback' /><input type='hidden' name='payCode'
+            value='YK2516ZFLS2000002664' /><input type='hidden' name='paymentSign'
+            value='76af5837f24c392f46f0d0cf274bdf19' /><input type='submit' value='确认支付' style='display:none;'></form>
+    正在跳转支付平台，请稍后......
+    <!-- <script>document.forms['paysubmit'].submit();</script> -->
+    </div>
+</body>
+</html>

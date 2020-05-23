@@ -552,7 +552,7 @@
 }
 
 .releases_pc .pc_item {
-    padding: 0;
+    padding: 0 0.075rem;
     width: 100%;
     cursor: pointer;
 }
@@ -718,6 +718,7 @@
 
 .news_wrap {
     padding-bottom: 53px;
+    padding-top: 1rem;
 }
 
 .news_wrap .title {
