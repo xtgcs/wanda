@@ -23,47 +23,56 @@
 
     .mass_m .item_box.frist {
         margin: 0;
-        margin-bottom:50px;
+        margin-bottom: 50px;
         box-shadow: none;
     }
-    .mass_m .item_box
-    .mass_m .triathlon img,
-    .running img,  .mass_m .triathlon_new img{
+
+    .mass_m .item_box .mass_m .triathlon img,
+    .running img,
+    .mass_m .triathlon_new img {
         width: 100%;
         height: auto;
     }
 
-    .mass_m .triathlon .item,  .mass_m .triathlon_new .item ,
+    .mass_m .triathlon .item,
+    .mass_m .triathlon_new .item,
     .running .item {
         padding-left: 0;
         margin-bottom: 15px;
     }
 
-    .mass_m .triathlon .item_img,  .mass_m .triathlon_new .item_img,
+    .mass_m .triathlon .item_img,
+    .mass_m .triathlon_new .item_img,
     .running .item_img {
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
     }
-    .mass_m .triathlon_new .text{
-        padding-left:25px;
+
+    .mass_m .triathlon_new .text {
+        padding-left: 25px;
         padding-right: 25px;
         padding-top: 15px;
         font-size: 12px;
         text-align: center;
-        
+
     }
-    .mass_m .biking{
+
+    .mass_m .biking {
         margin-top: 24px;
     }
+
     .mass_m .running {
         margin-top: 25px;
     }
-   .mass_m .mountain{
-       margin-top: 40px;
-   }
+
+    .mass_m .mountain {
+        margin-top: 40px;
+    }
+
     .mass_m .triathlon {
         margin-top: 25px;
     }
-    .mass_m .col-xs-4{
+
+    .mass_m .col-xs-4 {
         padding-left: 7.5px;
         padding-right: 7.5px;
     }
@@ -73,26 +82,32 @@
         margin-top: 40px;
         text-align: center;
     }
+
     .companies_logos {
         margin-top: 25px;
     }
+
     .mass_m.companies_container .triathlon .item {
         margin: 0;
         padding: 0;
         margin-bottom: 15px;
     }
-    .mass_m .companies_logos .item .companies_container_title{
+
+    .mass_m .companies_logos .item .companies_container_title {
         font-size: 17px;
         text-align: center;
         padding-bottom: 15px;
     }
-    .companies_logos .item p{
+
+    .companies_logos .item p {
         font-size: 15px;
     }
-    .mass_m .item_box.pc{
+
+    .mass_m .item_box.pc {
         display: none;
     }
-    .mass_m .item_box.m{
+
+    .mass_m .item_box.m {
         display: block;
         padding: 0 15px;
         box-shadow: none;
@@ -150,25 +165,31 @@
     margin-top: 1.2rem;
 }
 
-.triathlon_new{
+.triathlon_new {
     margin-top: 0.4rem;
 }
-.triathlon_new .item{
+
+.triathlon_new .item {
     padding-left: 0;
 }
-.biking{
+
+.biking {
     margin-top: 0.8rem;
 }
-.triathlon_new .title{
+
+.triathlon_new .title {
     font-size: 0.36rem;
     font-weight: bold;
     /* text-align: center; */
 }
-.triathlon_new .text{
+
+.triathlon_new .text {
     /* text-align: center; */
-    font-size: 0.24rem;
+    font-size: 0.22rem;
     padding-top: 0.2rem;
+    height: 0.76rem;
 }
+
 /* companies样式 */
 
 .companies_container .title {
@@ -189,26 +210,30 @@
     font-weight: bold;
     padding: 0.1rem 0.25rem .23rem .25rem;
 }
-.companies_logos .item p{
+
+.companies_logos .item p {
     font-family: Georgia;
     padding: 0 0.25rem;
 }
+
 .companies_logos .item img {
     width: 100%;
     height: auto;
 }
 
-.com .item_box{
+.com .item_box {
     margin-bottom: 0;
 }
-.com .item_box.frist{
+
+.com .item_box.frist {
     border-bottom: 1px solid rgba(51, 51, 51, 0.1);
 }
-.com .item_box.pc{
+
+.com .item_box.pc {
     display: block;
     padding-top: 20px;
 }
-.com .item_box.m{
+
+.com .item_box.m {
     display: none;
 }
-

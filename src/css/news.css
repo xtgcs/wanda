@@ -1,5 +1,13 @@
 @media(max-width:991px) {
 
+    .new {
+        padding-top: 50px;
+    }
+   .new .mobile.swiper-container-horizontal>.swiper-pagination-bullets{
+        bottom: 0;
+        margin-bottom: 5px;
+    }
+
     /* 文件下载样式 */
     .file_d_m {
         padding: 0 15px;
@@ -984,4 +992,14 @@
 
 .modal_video .my-video-dimensions {
     position: absolute;
+}
+
+@media (min-width: 992px) {
+    .new .slider_content {
+        bottom: .75rem;
+    }
+}
+
+.new .swiper-pagination-bullet-active{
+    background: #fff;
 }
