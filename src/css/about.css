@@ -265,7 +265,7 @@ a:hover {
 }
 
 .company_content_box {
-    max-height: 6rem;
+    /* max-height: 6rem; */
     overflow: hidden;
     text-align: justify;
 }

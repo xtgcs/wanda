@@ -180,6 +180,6 @@ gulp.task('watch', function () {
   gulp.watch(['src/**/js*.js'], ['build-js-dev']);
   gulp.watch('src/asset/img/**/*.*', ['build-img-dev']);
   gulp.watch('src/plug/**/*.*', ['copy-plug']);
-  gulp.watch('src/fonts/**/*.*', [' copy-fonts']);
+  gulp.watch('src/fonts/**/*.*', ['copy-fonts']);
  
 });
