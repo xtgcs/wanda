@@ -7,7 +7,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean": "*",
     "gulp-concat": "*",
